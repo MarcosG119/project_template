@@ -100,7 +100,8 @@ project-template/
 │   ├── Dockerfile              # FastAPI container definition
 │   ├── requirements.txt        # Python dependencies
 │   └── app/
-│       └── main.py             # FastAPI application
+│       ├── main.py             # FastAPI entrypoint
+│       └── model.py            # Pydantic models and database entities
 └── reactClient/
     ├── Dockerfile              # React container definition
     ├── package.json            # Node dependencies
